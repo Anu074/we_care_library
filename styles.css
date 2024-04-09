@@ -328,6 +328,7 @@ button {
 .contact-card {
     max-height: 200px;
     max-width: 200px;
+    margin-bottom: 80px;
 }
 
 .avatar-image {
@@ -346,6 +347,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 60px;
+    margin-left: 290px;
 }
 
 .image-about {
@@ -363,6 +365,10 @@ button {
 
 #about-us2 {
     margin-left: 100px;
+}
+
+.break-tag {
+    display: none;
 }
 
 @media (max-width: 800px) {
@@ -407,6 +413,15 @@ button {
     }
     .image-about2 {
         margin: auto;
+        row-gap: 5px;
+        
+        
+    }
+    .contact-card {
+        margin: 80px;
+    }
+    .break-tag {
+        display: static;
     }
 
 }
