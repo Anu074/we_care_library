@@ -1,0 +1,360 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+}
+
+.heading {
+    margin-left: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact {
+    margin-left: 980px;
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    width: 60px;
+    height: 40px;
+
+}
+
+.main-part {
+    display:flex;
+    flex-direction: row;
+    margin-top: 120px;
+
+}
+.Welcome {
+    font-size: 45px;
+}
+
+img {
+    width: 500px;
+}
+
+.library-info {
+    margin-top: 120px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#image-section {
+    margin-left: 140px;
+    margin-top: 80px;
+}
+
+main {
+    padding: 20px;
+}
+
+#opening-hours {
+    margin-left: 150px;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.second-part, .third-part {
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    margin-left: 60px;
+    margin-top: 210px;
+
+}
+
+
+.working {
+    margin-left: 150px;
+    margin-top: 2px;
+}
+
+.third-part-div, .gallery-div {
+    background-color: silver;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 1200px;
+    margin-left: 150px;
+    
+}
+
+.gallery-div {
+    margin-top: 120px;
+    background-color: #535C91;
+    display: flex;
+    flex-direction: row;
+    z-index: -1000;
+}
+
+#opening-hours1 {
+    margin-left: 150px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.gallery-container {
+    position: relative;
+    width: 400px; 
+    overflow: hidden; 
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.gallery-image {
+    width: 400px; /* Match the width of the gallery container */
+    display: inline-block; /* Ensure each image is displayed in a line */
+}
+
+button {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+
+#prevBtn {
+    left: 10px;
+    margin-right: 30px;
+    margin-left: 80px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
+
+
+/* CSS */
+.button-78 {
+  align-items: center;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: initial;
+  background-image: none;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: Eina01,sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 24px;
+  margin: 0;
+  min-height: 64px;
+  outline: none;
+  overflow: visible;
+  padding: 19px 26px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: auto;
+  word-break: keep-all;
+  z-index: 0;
+}
+
+@media (min-width: 768px) {
+  .button-78 {
+    padding: 19px 32px;
+  }
+}
+
+.button-78:before,
+.button-78:after {
+  border-radius: 80px;
+}
+
+.button-78:before {
+  background-image: linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -2;
+}
+
+.button-78:after {
+  background-color: initial;
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  content: "";
+  display: block;
+  left: 4px;
+  overflow: hidden;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  transition: all 100ms ease-out;
+  z-index: -1;
+}
+
+.button-78:hover:not(:disabled):before {
+  background: linear-gradient(92.83deg, rgb(255, 116, 38) 0%, rgb(249, 58, 19) 100%);
+}
+
+.button-78:hover:not(:disabled):after {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  opacity: 0;
+}
+
+.button-78:active:not(:disabled) {
+  color: #ccc;
+}
+
+.button-78:active:not(:disabled):before {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+}
+
+.button-78:active:not(:disabled):after {
+  background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+  bottom: 4px;
+  left: 4px;
+  right: 4px;
+  top: 4px;
+}
+
+.button-78:disabled {
+  cursor: default;
+  opacity: .24;
+}
+
+.about-us {
+    margin-top: 200px;
+    margin-left: 150px;
+}
+.about-us1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+
+}
+
+.text-part {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.contact-us1 {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+
+.contact-card {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.avatar-image {
+    height: 100%;
+    width: 100%;
+      
+}
+
+.contact-form {
+    margin-top: 200px;
+    margin-left: 8px;
+}
+
+.image-about2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.image-about {
+    margin-left: 100px;
+}
+
+.image-about3 {
+    margin-left: 450px;
+}
+
+.Trustees {
+    margin-left: 450px;
+    margin-top: 200px;
+}
+
+#about-us2 {
+    margin-left: 100px;
+}
