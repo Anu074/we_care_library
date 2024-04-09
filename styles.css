@@ -46,7 +46,8 @@ nav ul li a {
 }
 
 .contact {
-    margin-left: 980px;
+    position: absolute;
+    right: 0;
     margin-top: 25px;
     display: flex;
     gap: 20px;
@@ -85,7 +86,8 @@ main {
 }
 
 #opening-hours {
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin: auto;
     margin-top: 200px;
     font-size: 20px;
 }
@@ -96,14 +98,14 @@ main {
 }
 
 .address {
-    margin-left: 60px;
+    margin: auto;
     margin-top: 210px;
 
 }
 
 
 .working {
-    margin-left: 150px;
+    margin: auto;
     margin-top: 2px;
 }
 
@@ -113,7 +115,8 @@ main {
     border-radius: 10px;
     margin-bottom: 30px;
     width: 1200px;
-    margin-left: 150px;
+    margin: auto;
+    margin-bottom: 80px;
     
 }
 
@@ -126,7 +129,7 @@ main {
 }
 
 #opening-hours1 {
-    margin-left: 150px;
+    margin: auto;
     margin-top: 100px;
     font-size: 20px;
 }
@@ -145,7 +148,8 @@ footer {
     position: relative;
     width: 400px; 
     overflow: hidden; 
-    margin-left: 250px;
+    /* margin-left: 250px; */
+    margin: auto;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 25px;
@@ -162,7 +166,7 @@ footer {
 }
 
 button {
-    position: relative;
+    position: absolute;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
@@ -177,11 +181,12 @@ button {
 #prevBtn {
     left: 10px;
     margin-right: 30px;
-    margin-left: 80px;
+    /* margin-left: 20px; */
+    margin: auto;
 }
 
 #nextBtn {
-    right: 10px;
+    right: 50px;
 }
 
 
@@ -299,7 +304,8 @@ button {
 
 .about-us {
     margin-top: 200px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    margin: 10px auto;
 }
 .about-us1 {
     display: flex;
@@ -357,4 +363,50 @@ button {
 
 #about-us2 {
     margin-left: 100px;
+}
+
+@media (max-width: 800px) {
+    .main-part {
+        display:flex;
+        flex-direction: column;
+        margin-top: 120px;
+    }
+
+    #opening-hours {
+        display: none;
+    }
+    .address {
+        margin-left: 80px;
+    }
+    .working {
+        display: none;
+    }
+    .third-part {
+        margin-bottom: 60px;
+    }
+    .third-part-div {
+        max-width: 700px;
+        margin: auto;
+        margin-bottom: 80px;
+    }
+
+    .gallery-div {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .image-about {
+        display: none;
+    }
+    .image-about3 {
+        margin: auto;
+    }
+    .Trustees {
+        margin: auto;
+        margin-top: 120px;
+    }
+    .image-about2 {
+        margin: auto;
+    }
+
 }
